@@ -1,8 +1,8 @@
 # __PROJECT_NAME__ — a Bussetech Software Studio project site.
 #
 # Created from <org>/project-template by the studio factory (EPIC1-08).
-# `__DOUBLE_UNDERSCORE__` placeholders are filled by scripts/new-project.sh
-# in the platform repo; if you can still see any, the fill step didn't run.
+# Double-underscore placeholders are filled by scripts/new-project.sh in
+# the platform repo; if you can still see any, the fill step didn't run.
 #
 # Theme: pinned tag, never a branch (theme docs/versioning.md). Bump
 # canary-first when a new theme version ships.
