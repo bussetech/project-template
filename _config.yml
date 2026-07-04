@@ -33,6 +33,10 @@ studio:
 markdown: kramdown
 sass:
   style: compressed
+  # Never emit source maps: for private-published sites a .map file is a
+  # source leak (ADR-0006) and shared site CI fails on it; for public sites
+  # it is dead weight. First proven live by test-factory's CI (EPIC1-08).
+  sourcemap: never
 
 # data/ and schema/ are deliberately NOT excluded: the published site serves
 # the datasets and their schemas verbatim (research outputs are the point —
