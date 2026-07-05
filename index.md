@@ -1,7 +1,7 @@
 ---
 layout: home
 title: __PROJECT_NAME__
-description: __PROJECT_DESCRIPTION__
+description: __PROJECT_DESCRIPTION_YAML__
 ---
 
 __PROJECT_DESCRIPTION__

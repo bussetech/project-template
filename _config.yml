@@ -7,7 +7,7 @@
 # Theme: pinned tag, never a branch (theme docs/versioning.md). Bump
 # canary-first when a new theme version ships.
 title: __PROJECT_NAME__
-description: __PROJECT_DESCRIPTION__
+description: __PROJECT_DESCRIPTION_YAML__
 lang: en
 url: "https://__PROJECT_NAME__.__DOMAIN__"
 baseurl: ""
