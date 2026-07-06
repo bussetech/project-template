@@ -12,7 +12,7 @@ lang: en
 url: "https://__PROJECT_NAME__.__DOMAIN__"
 baseurl: ""
 
-remote_theme: bussetech/theme@v0.2.0
+remote_theme: bussetech/theme@v0.3.0
 plugins:
   - jekyll-remote-theme
 
@@ -23,6 +23,10 @@ studio:
   # public | private | private-published — must match this repo's entry in
   # the control repo's platform.yml. The theme keys its leak rule off it.
   visibility: __VISIBILITY__
+  # Studio legal identity (EPIC2-01) — the footer copyright line. Filled by
+  # the factory from the control repo's platform.yml branding.legal.copyright.
+  legal:
+    copyright: "__COPYRIGHT__"
   # Cloudflare Web Analytics token, minted per live hostname by the DNS
   # steward into platform.yml (EPIC1-04). Backfill from there; not secret.
   analytics_beacon: ""
