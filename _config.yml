@@ -12,7 +12,7 @@ lang: en
 url: "https://__PROJECT_NAME__.__DOMAIN__"
 baseurl: ""
 
-remote_theme: bussetech/theme@v0.3.0
+remote_theme: bussetech/theme@v0.11.0
 plugins:
   - jekyll-remote-theme
 
